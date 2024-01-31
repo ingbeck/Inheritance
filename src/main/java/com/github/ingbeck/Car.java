@@ -7,4 +7,11 @@ public class Car extends Vehicle {
         super(manufacturer, model, yearOfManufacture);
         this.numberOfDoors = numberOfDoors;
     }
+
+    @Override
+    public String toString() {
+        return "Car{" +
+                "numberOfDoors=" + numberOfDoors +
+                "} " + super.toString();
+    }
 }

@@ -13,4 +13,12 @@ public class Vehicle {
         this.yearOfManufacture = yearOfManufacture;
     }
 
+    @Override
+    public String toString() {
+        return "Vehicle{" +
+                "manufacturer='" + manufacturer + '\'' +
+                ", model='" + model + '\'' +
+                ", yearOfManufacture=" + yearOfManufacture +
+                '}';
+    }
 }
